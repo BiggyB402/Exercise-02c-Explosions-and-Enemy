@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2888120219562929921}
   - component: {fileID: 5278527083670416294}
   m_Layer: 0
-  m_Name: Asteroid
+  m_Name: Smoll Astroid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,8 +103,11 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"initialSpeed","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Health","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"small
+      prefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1990385776071640484}
 --- !u!114 &1756204794954727885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,7 +123,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 6b163bfa2bca382469f27c9b8304f894, type: 2}
+    - {fileID: 11400000, guid: 454eb8a2e60bed343b27f1faefe303bc, type: 2}
 --- !u!50 &2888120219562929921
 Rigidbody2D:
   serializedVersion: 4
